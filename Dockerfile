@@ -1,6 +1,6 @@
 FROM node:12-slim
 
-ENV UNGIT_VER 1.5.9
+ENV UNGIT_VER 1.5.18
 
 RUN apt-get update && apt-get install -y git ssh net-tools vim --no-install-recommends
 
