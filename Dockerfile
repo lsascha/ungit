@@ -19,3 +19,4 @@ EXPOSE 8448
 user node
 
 ENTRYPOINT ["ungit"]
+
