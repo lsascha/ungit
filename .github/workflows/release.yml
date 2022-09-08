@@ -36,4 +36,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: ${{ env.REPOSITORY }}:${{ steps.branch_name.outputs.SOURCE_TAG }}
+          tags: ${{ secrets.REPOSITORY }}:${{ steps.branch_name.outputs.SOURCE_TAG }}
